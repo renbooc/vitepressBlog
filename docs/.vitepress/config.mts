@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "老Qu电子寒舍",
   description: "身无半亩，心忧天下",
+  base: 'https://github.com/renbooc/vitepressBlog.git',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/avatar.png',
@@ -24,7 +25,6 @@ export default defineConfig({
       },
       { text: '生活', link: '/markdown-examples' },
     ],
-
     sidebar: [
       {
         text: 'Examples',
